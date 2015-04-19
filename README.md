@@ -11,6 +11,7 @@
 <user_M>,<movie_N>,<rating_ij>
 Here, user i is an integer ID for the ith user, movie j is an integer ID for the jth movie, and rating ij is the rating given by user i to movie j.
 For example, the content of the input file to the script will look like:
+```
 1,3114,4
 1,608,4
 1,1246,4
@@ -21,6 +22,7 @@ For example, the content of the input file to the script will look like:
 6040,562,5
 6040,1096,4
 6040,1097,4
+```
 * Script eval_acc.log is intended for evaluating the algorithm performance by calculating reconstruction error in matrix factorization
 
 
@@ -54,9 +56,8 @@ Example:
 Reconstruction error: 0.826437682942
 ```
 
-```
-
 ## Reference
+
 ```
 Gemulla, Rainer, et al. "Large-scale matrix factorization with distributed stochastic gradient descent." Proceedings of the 17th ACM SIGKDD international conference on Knowledge discovery and data mining. ACM, 2011.
 ```
