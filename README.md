@@ -4,11 +4,13 @@
 
 * This code was developed with python version `2.7.6`
 * Data is taken from a subsample of the Netflix dataset. It is in the triples format:
+```
 <user_1>,<movie_1>,<rating_11>
 ...
 <user_i>,<movie_j>,<rating_ij>
 ...
 <user_M>,<movie_N>,<rating_ij>
+```
 Here, user i is an integer ID for the ith user, movie j is an integer ID for the jth movie, and rating ij is the rating given by user i to movie j.
 For example, the content of the input file to the script will look like:
 ```
