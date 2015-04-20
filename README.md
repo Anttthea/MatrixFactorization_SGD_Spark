@@ -25,7 +25,7 @@ For example, the content of the input file to the script will look like:
 6040,1096,4
 6040,1097,4
 ```
-* Script eval_acc.log is intended for evaluating the algorithm performance by calculating reconstruction error in matrix factorization
+* Script eval_acc.log is intended for algorithm performance evaluation by calculating reconstruction error in matrix factorization
 
 
 ## Pre requisites
